@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B23789D82A2A549E00DE9BEC /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23789D72A2A549E00DE9BEC /* UserInfoView.swift */; };
 		B2C53CF12A28C95D00C8768B /* login_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53CF02A28C95D00C8768B /* login_appApp.swift */; };
 		B2C53CF32A28C95D00C8768B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53CF22A28C95D00C8768B /* ContentView.swift */; };
 		B2C53CF52A28C95F00C8768B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C53CF42A28C95F00C8768B /* Assets.xcassets */; };
 		B2C53CF82A28C95F00C8768B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C53CF72A28C95F00C8768B /* Preview Assets.xcassets */; };
+		B2C53D002A28C98000C8768B /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53CFF2A28C98000C8768B /* TextViews.swift */; };
+		B2C53D032A28E02400C8768B /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D022A28E02400C8768B /* ButtonViews.swift */; };
+		B2C53D052A28E5DE00C8768B /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D042A28E5DE00C8768B /* GetStartedView.swift */; };
+		B2C53D072A28EB6100C8768B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D062A28EB6100C8768B /* BackgroundView.swift */; };
+		B2C53D0B2A2904D300C8768B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D0A2A2904D300C8768B /* SignUpView.swift */; };
+		B2C53D0D2A290A9A00C8768B /* RegisterFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D0C2A290A9A00C8768B /* RegisterFormView.swift */; };
+		B2C53D0F2A291F7F00C8768B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D0E2A291F7F00C8768B /* SignInView.swift */; };
+		B2C53D112A29203400C8768B /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C53D102A29203400C8768B /* LoginFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B23789D72A2A549E00DE9BEC /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		B2C53CED2A28C95D00C8768B /* login-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C53CF02A28C95D00C8768B /* login_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_appApp.swift; sourceTree = "<group>"; };
 		B2C53CF22A28C95D00C8768B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2C53CF42A28C95F00C8768B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C53CF72A28C95F00C8768B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2C53CFF2A28C98000C8768B /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		B2C53D022A28E02400C8768B /* ButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
+		B2C53D042A28E5DE00C8768B /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		B2C53D062A28EB6100C8768B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		B2C53D0A2A2904D300C8768B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B2C53D0C2A290A9A00C8768B /* RegisterFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormView.swift; sourceTree = "<group>"; };
+		B2C53D0E2A291F7F00C8768B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B2C53D102A29203400C8768B /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,7 @@
 		B2C53CEF2A28C95D00C8768B /* login-app */ = {
 			isa = PBXGroup;
 			children = (
+				B2C53CFE2A28C96C00C8768B /* Views */,
 				B2C53CF02A28C95D00C8768B /* login_appApp.swift */,
 				B2C53CF22A28C95D00C8768B /* ContentView.swift */,
 				B2C53CF42A28C95F00C8768B /* Assets.xcassets */,
@@ -65,6 +84,22 @@
 				B2C53CF72A28C95F00C8768B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2C53CFE2A28C96C00C8768B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2C53CFF2A28C98000C8768B /* TextViews.swift */,
+				B2C53D022A28E02400C8768B /* ButtonViews.swift */,
+				B2C53D042A28E5DE00C8768B /* GetStartedView.swift */,
+				B2C53D062A28EB6100C8768B /* BackgroundView.swift */,
+				B2C53D0A2A2904D300C8768B /* SignUpView.swift */,
+				B2C53D0C2A290A9A00C8768B /* RegisterFormView.swift */,
+				B2C53D0E2A291F7F00C8768B /* SignInView.swift */,
+				B2C53D102A29203400C8768B /* LoginFormView.swift */,
+				B23789D72A2A549E00DE9BEC /* UserInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C53D0F2A291F7F00C8768B /* SignInView.swift in Sources */,
+				B2C53D0D2A290A9A00C8768B /* RegisterFormView.swift in Sources */,
+				B2C53D112A29203400C8768B /* LoginFormView.swift in Sources */,
+				B2C53D072A28EB6100C8768B /* BackgroundView.swift in Sources */,
 				B2C53CF32A28C95D00C8768B /* ContentView.swift in Sources */,
 				B2C53CF12A28C95D00C8768B /* login_appApp.swift in Sources */,
+				B2C53D0B2A2904D300C8768B /* SignUpView.swift in Sources */,
+				B2C53D032A28E02400C8768B /* ButtonViews.swift in Sources */,
+				B2C53D002A28C98000C8768B /* TextViews.swift in Sources */,
+				B23789D82A2A549E00DE9BEC /* UserInfoView.swift in Sources */,
+				B2C53D052A28E5DE00C8768B /* GetStartedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

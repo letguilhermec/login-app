@@ -12,6 +12,7 @@ struct login_appApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .font(.custom("Poppins-Regular", size: 16))
         }
     }
 }
